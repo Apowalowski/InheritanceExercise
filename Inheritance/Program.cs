@@ -28,12 +28,44 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+            Birds Penguin = new Birds()
+            {
+                IsLiving = true,
+                Age = 4,
+                Name = "Penguin",
+                Legs = 2,
+                HasBeak = true,
+                HasWings = true,
+                TwoLegs = 2,
+                Flight = true,
+            };
 
-            /*Create an object of your Reptile class
-             *  give values to your members using the object of your Bird class
-             *  
-             * Creatively display the class member values 
-             */
+            Reptiles Lizard = new Reptiles()
+            {
+                IsLiving = true,
+                Age = 2,
+                Name = "Lizard",
+                Legs = 4,
+                IsColdBlooded = true,
+                EatsBugs = true,
+                HasScales = "scales",
+                Environment = "forest",
+             };
+        
+
+       
+        
+        
+        }
+        
         }
     }
+
+        /*Create an object of your Reptile class
+         *  give values to your members using the object of your Bird class
+         *  
+         * Creatively display the class member values 
+         */
+    
+    
 }
