@@ -6,6 +6,7 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+           
             // TODO Be sure to follow best practice when creating your classes
 
             // Create a class Animal
@@ -51,11 +52,13 @@ namespace Inheritance
                 HasScales = "scales",
                 Environment = "forest",
              };
-        
 
-       
-        
-        
+            Console.WriteLine(Penguin.Age);
+            Console.WriteLine(Lizard.Age);
+
+
+
+
         }
         
         }
@@ -68,4 +71,4 @@ namespace Inheritance
          */
     
     
-}
+
